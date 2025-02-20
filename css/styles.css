@@ -343,18 +343,19 @@ span.logo {
 .portfolio-block {
   position: relative;
 }
-.sec-four-list-one:hover .overlays {
-  opacity: 1;
-  transform: translateY(0);
-  transition: 500ms;
-}
+
 .sec-four-list-one {
   width: calc((100% - 48px) / 3);
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
+  transition: 500ms;
 }
-
+.sec-four-list-one:hover .overlays {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 500ms;
+}
 .overlays {
   position: absolute;
   top: 0;
