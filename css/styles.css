@@ -264,7 +264,9 @@ span.logo {
 }
 .div-sec-three {
 }
-
+.icon-svg {
+  fill: #f4f4fd;
+}
 .sec-three-h-two {
   color: #2e2f42;
   font-family: Roboto;
