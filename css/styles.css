@@ -440,13 +440,18 @@ span.logo-footer {
 }
 .sec-footer {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   width: 1128px;
-  gap: 120px;
+  /* gap: 120px; */
 }
 .footer-p {
   width: 264px;
+  margin-bottom: 16px;
 }
+.footer-item-one {
+  margin-right: 120px;
+}
+
 .footer-item-two {
   width: 208px;
 }
