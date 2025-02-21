@@ -300,7 +300,9 @@ span.logo {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
+.xxx {
+  padding: 32px 0;
+}
 .section-three-p {
   font-family: Roboto;
   font-size: 16px;
@@ -318,7 +320,7 @@ span.logo {
   justify-content: center;
   align-items: center;
   padding-top: 8px;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 .sec-three-li-text-two-list {
   display: flex;
