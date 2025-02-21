@@ -80,7 +80,9 @@ span.logo {
   line-height: 1.5;
   letter-spacing: 0.02em;
   position: relative;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .navi-link:hover,
 .navi-link:focus {
   display: block;
@@ -90,6 +92,7 @@ span.logo {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .navi-link-focus::after {
   display: block;
   content: "";
@@ -115,6 +118,7 @@ span.logo {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -135,7 +139,9 @@ span.logo {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: flex;
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 188px 0 188px;
 }
 .div-h-one {
@@ -160,6 +166,7 @@ span.logo {
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -345,16 +352,15 @@ span.logo {
 }
 
 .sec-four-list-one {
+  overflow: hidden;
   width: calc((100% - 48px) / 3);
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
-  transition: 500ms;
 }
 .sec-four-list-one:hover .overlays {
   opacity: 1;
   transform: translateY(0);
-  transition: 500ms;
 }
 .overlays {
   position: absolute;
@@ -371,10 +377,11 @@ span.logo {
 
   color: #f4f4fd;
   background-color: #4d5ae5;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 15px;
   opacity: 0;
   transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sec-four-h-plus-p {
   padding: 32px 16px;
@@ -447,6 +454,9 @@ span.logo-footer {
 .footer .sec-three-li-text-two {
   gap: 16px;
   margin-top: 16px;
+}
+.footer .sec-three-li-text-two-list {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer .sec-three-li-text-two-list:hover,
 .footer .sec-three-li-text-two-list:focus {
