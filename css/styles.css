@@ -449,7 +449,6 @@ span.logo-footer {
   display: flex;
   align-items: baseline;
   width: 1128px;
-  /* gap: 120px; */
 }
 .footer-p {
   width: 264px;
@@ -458,7 +457,6 @@ span.logo-footer {
 .footer-item-one {
   margin-right: 120px;
 }
-
 .footer-item-two {
   width: 208px;
 }
